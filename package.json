@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server",
+    "bulid": "cross-env NODE_ENV=production webpack -p"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
