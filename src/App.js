@@ -11,8 +11,12 @@ class App extends React.Component {
   componentDidMount = async () => {};
   render() {
     return (
-      <div>
-        <div>FireBase Make</div>
+      <div className="App">
+        <div className="App__bg">
+          <div className="App__bg__desc">
+            <h1>test h1</h1>
+          </div>
+        </div>
       </div>
     );
   }
