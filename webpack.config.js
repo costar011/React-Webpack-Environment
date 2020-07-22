@@ -64,7 +64,7 @@ module.exports = {
     host: "localhost",
     port: 3000,
     proxy: {
-      "**": "http://localhost:5000",
+      "**": "http://localhost:3000",
     },
   },
 };

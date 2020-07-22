@@ -5,9 +5,16 @@ import Memo from "./components/Memo";
 class App extends React.Component {
   constructor(props) {
     super(props);
+
+    this.state = {};
   }
+  componentDidMount = async () => {};
   render() {
-    return <div>Test Page</div>;
+    return (
+      <div>
+        <div>FireBase Make</div>
+      </div>
+    );
   }
 }
 export default App;
