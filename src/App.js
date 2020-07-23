@@ -13,9 +13,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="App__box">
+        <div className="App__img">
           <div className="App__img__desc">
-            <img src={img1} />
+            <img src={img1} width="500px"></img>
           </div>
         </div>
       </div>
