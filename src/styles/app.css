@@ -5,3 +5,7 @@ body {
 .App {
   width: 100%;
 }
+
+.App .App__box .App___img__desc {
+  background-color: aqua;
+}

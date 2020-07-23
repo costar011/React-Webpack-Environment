@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Memo from "./components/Memo";
+import img1 from "../src/components/images/img1.jpg";
 
 class App extends React.Component {
   constructor(props) {
@@ -12,9 +13,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="App__bg">
-          <div className="App__bg__desc">
-            <h1>test h1</h1>
+        <div className="App__box">
+          <div className="App__img__desc">
+            <img src={img1} />
           </div>
         </div>
       </div>
