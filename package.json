@@ -12,11 +12,13 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cross-env": "^7.0.2",
+    "css-loader": "^4.2.1",
     "dotenv-webpack": "^2.0.0",
     "file-loader": "^6.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
+    "style-loader": "^1.2.1",
     "styled-components": "^5.1.1",
     "url-loader": "^4.1.0"
   },
