@@ -11,9 +11,15 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="App__top">top</div>
-        <div className="App__main">main</div>
-        <div className="App__bottom">bottom</div>
+        <div className="App__top">
+          <div className="App__top__col1-1">col1</div>
+        </div>
+        <div className="App__main">
+          <div className="App__main__col2-1">main1</div>
+        </div>
+        <div className="App__bottom">
+          <div className="App__bottom__col3-1">bottom1</div>
+        </div>
       </div>
     );
   }
