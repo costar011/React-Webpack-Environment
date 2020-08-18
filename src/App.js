@@ -16,13 +16,13 @@ class App extends React.Component {
         </div>
 
         <div className="App__main">
-          <div className="App__main__col2-1">main1</div>
-          <div className="App__main__col2-2">main2</div>
+          <div className="App__main__col2-1"></div>
+          <div className="App__main__col2-2"></div>
         </div>
 
         <div className="App__bottom">
-          <div className="App__bottom__col3-1">bottom1</div>
-          <div className="App__bottom__col3-2">bottom2</div>
+          <div className="App__bottom__col3-1"></div>
+          <div className="App__bottom__col3-2"></div>
         </div>
       </div>
     );
